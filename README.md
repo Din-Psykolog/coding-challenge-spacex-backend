@@ -10,6 +10,7 @@ The purpose is to setup a Node.js server with 1 endpoint that gets data from a p
 2. Fetch data from this public SpaceX API https://github.com/r-spacex/SpaceX-API, using https://api.spacexdata.com/v5/launches
 3. Create an endpoint that returns the link to one random Flickr launch image (pick any launch with at least 1 flickr -> original picture, some launches have none)
 4. If the SpaceX API can't be accessed the endpoint should return something useful
+5. Bonus: Write a unit test
 
 Acceptance Criteria: When running the server and accessing the endpoint, it should return a link to one Flickr launch image or an error message
 Note: Remember to keep the code clean and commit after each step (or more often)
